@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8E91CACB2B0F35B200913ACF /* MXParallaxHeader in Sources */ = {isa = PBXBuildFile; fileRef = 8E91CAC02B0F32F200913ACF /* MXParallaxHeader */; };
+		8E91CAD02B0F3CE700913ACF /* MXScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E91CACD2B0F3CE700913ACF /* MXScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E91CAD12B0F3CE700913ACF /* MXScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E91CACE2B0F3CE700913ACF /* MXScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E91CAD22B0F3CE700913ACF /* MXParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E91CACF2B0F3CE700913ACF /* MXParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C01BC7E1DA3E55F0032494C /* MXParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C01BC7C1DA3E55F0032494C /* MXParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C01BCCB1DA3E9A80032494C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C01BCCA1DA3E9A80032494C /* AppDelegate.swift */; };
 		9C01BCD01DA3E9A80032494C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C01BCCE1DA3E9A80032494C /* Main.storyboard */; };
@@ -49,6 +52,9 @@
 
 /* Begin PBXFileReference section */
 		8E91CAC02B0F32F200913ACF /* MXParallaxHeader */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MXParallaxHeader; sourceTree = "<group>"; };
+		8E91CACD2B0F3CE700913ACF /* MXScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MXScrollViewController.h; path = Sources/MXParallaxHeader/MXScrollViewController.h; sourceTree = "<group>"; };
+		8E91CACE2B0F3CE700913ACF /* MXScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MXScrollView.h; path = Sources/MXParallaxHeader/MXScrollView.h; sourceTree = "<group>"; };
+		8E91CACF2B0F3CE700913ACF /* MXParallaxHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MXParallaxHeader.h; path = Sources/MXParallaxHeader/MXParallaxHeader.h; sourceTree = "<group>"; };
 		9C01BC6F1DA3E4D40032494C /* MXParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C01BC7B1DA3E55F0032494C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Framework/Info.plist; sourceTree = "<group>"; };
 		9C01BC7C1DA3E55F0032494C /* MXParallaxHeader-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MXParallaxHeader-umbrella.h"; path = "Framework/MXParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
@@ -93,6 +99,9 @@
 		9C01BC651DA3E4D40032494C = {
 			isa = PBXGroup;
 			children = (
+				8E91CACF2B0F3CE700913ACF /* MXParallaxHeader.h */,
+				8E91CACE2B0F3CE700913ACF /* MXScrollView.h */,
+				8E91CACD2B0F3CE700913ACF /* MXScrollViewController.h */,
 				9C01BCED1DA3F0C80032494C /* Metadata */,
 				9C01BC7F1DA3E56A0032494C /* Sources */,
 				9C01BC7A1DA3E54C0032494C /* Framework */,
@@ -172,6 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C01BC7E1DA3E55F0032494C /* MXParallaxHeader-umbrella.h in Headers */,
+				8E91CAD02B0F3CE700913ACF /* MXScrollViewController.h in Headers */,
+				8E91CAD12B0F3CE700913ACF /* MXScrollView.h in Headers */,
+				8E91CAD22B0F3CE700913ACF /* MXParallaxHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
